@@ -6,15 +6,18 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     int date;
-    if (a==1){
-      date=b;
+    for(int i=0;i<a-1;i++){
+      if(i==0||i==2||i==4||i==6||i==7||i==9||i==11){
+        date+=31;
+      }
+      else if(i==3||i==5||i==8||i==10){
+        date+=30;
+      }
+      else{
+        date+=28;
+      }
     }
-    else if (a==2){
-      date=b+31;
-    }
-    else{
-      date= 31*(a-1)-(a-1)/2-2+b;
-    }
+    date+=b;
     if (date%7==0){
       cout<<"SUN"<<endl;
     }
