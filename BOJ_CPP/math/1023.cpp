@@ -1,10 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <math.h>
-/*이렇게 해봤는데 솔직히 낮은 단계에서는 반례가 없다시피 함 잘됨
-근데 수 범위때문에 숫자가 커질수록 오류가 나는 것 같아서 다음에 다시 해 볼 예정
-사실 범위 파악도 실력이고 범위 말고 다른 요소를 다 맞았다는 보장은 없지만
-알고리즘 공부 좀 더 한 다음에 도전해볼 예정 ㅠㅠ */
+
 typedef unsigned long long ull;
 
 using namespace std;
