@@ -15,8 +15,8 @@ void bit_print(ull a,ull b){
   }
 }
 
-const unsigned long long MAX = 99999999;
-unsigned long long dp[MAX];
+const ull MAX = 99999999;
+ull dp[MAX];
 
 void catalanDP(int n) {
   dp[0] = 1;
